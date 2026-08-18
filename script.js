@@ -10,6 +10,23 @@ addBtn.addEventListener('click', function() {
 
     const listItem = document.createElement('li');
     listItem.textContent = textValue;
+    
+const completeBtn = document.createElement('button');
+completeBtn.textContent = 'Klar';
 
+completeBtn.addEventListener('click', function() {
+    listItem.style.textDecoration =
+        listItem.style.textDecoration === 'line-through' ? 'none' : 'line-through';
+});
+
+const deleteBtn = document.createElement('button');
+deleteBtn.textContent = 'Ta bort';
+
+deleteBtn.addEventListener('click', function() {
+    listItem.remove();
+});
+
+listItem.appendChild(completeBtn);
+listItem.appendChild(deleteBtn);
       myList.appendChild(listItem);
 })
