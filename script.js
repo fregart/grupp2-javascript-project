@@ -7,4 +7,9 @@ const myList = document.getElementById('todoList');
 addBtn.addEventListener('click', function() {
     // Hämta värdet från textfältet och ta bort extra mellanslag
     const textValue = inputText.value.trim();
+
+    const listItem = document.createElement('li');
+    listItem.textContent = textValue;
+
+      myList.appendChild(listItem);
 })
