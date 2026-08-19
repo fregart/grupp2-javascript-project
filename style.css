@@ -90,6 +90,32 @@ button:hover {
     background-color: #c0392b;
 }
 
+#filtreraAllt {
+    background-color: rgb(175, 211, 47) ;
+    color: white;
+}
+
+#filtreraAllt:hover {
+    background-color: rgb(153, 184, 42) ;
+}
+
+#filtreramarkerade{
+    background-color: goldenrod;
+    color: white;    
+}
+
+#filtreramarkerade:hover{
+    background-color: rgb(168, 128, 25);  
+}
+
+#filtreraomarkerade{
+    background-color: rgb(248, 101, 248);
+    color: white;
+}
+
+#filtreraomarkerade:hover{
+    background-color: rgb(145, 60, 145);
+}
 
 .dark {
     background-color: #080808;
