@@ -34,3 +34,8 @@ deleteBtn.addEventListener('click', function() {
         selectedTask = null;
     }
 });
+
+function darkmode() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
