@@ -51,7 +51,10 @@ deleteBtn.addEventListener('click', function() {
     }
 });
 
-// --- FILTERFUNKTION ---
+function darkmode() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
 
 function Filter() {
     const items = myList.getElementsByTagName('li');

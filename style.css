@@ -18,6 +18,11 @@ body {
     color: #333;
 }
 
+.dark-mode {
+    background: linear-gradient(135deg, #080808, #764ba2);
+    color: #667eea;
+}
+
 /* Rubrik */
 body::before {
     content: "Min To-Do Lista";
@@ -57,6 +62,10 @@ button {
     transition: 0.2s ease;
 }
 
+.btn-container {
+display: flex;
+}
+
 button:hover {
     transform: translateY(-2px);
 }
@@ -79,6 +88,21 @@ button:hover {
 
 #delete:hover {
     background-color: #c0392b;
+}
+
+
+.dark {
+    background-color: #080808;
+    color: #667eea;
+    flex: right;
+    position: absolute;
+    top:10px;
+    right: 10px;
+}
+
+.dark:hover{
+    background-color: #272626;
+
 }
 
 /* To-do listan */
